@@ -1,0 +1,40 @@
+/* 
+ Google fonts
+ font-family: 'Epilogue', sans-serif;
+
+ color: #1E1E1E
+ orange: #EF6D58
+ 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&display=swap');
+
+/* 
+ Header area
+*/
+.header-area {
+    background-color: #28293E;
+    padding: 15px 0;
+
+}
+.header-area .navbar {
+    padding: 0;
+}
+.header-area .nav-item {
+    margin: 0 35px;
+
+}
+.header-area .navbar-nav 
+.nav-item:last-child {
+    margin-right: 0;
+}
+.header-area .navbar-nav 
+.nav-item:last-child a {
+    border: 1px solid #ededed;
+    padding: 10px 25px;
+    border-radius: 6px;
+
+}
+.header-area .nav-link,
+.header-area .nav-link.active {
+    color: #fff;
+}
