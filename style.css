@@ -80,6 +80,7 @@ a {
     border: 1px solid #ededed;
     padding: 10px 25px;
     border-radius: 6px;
+    display: inline-block;
 
 }
 .header-area .nav-link,
@@ -199,7 +200,12 @@ a {
     border-radius: 50%;
     /* box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5); */
 }
+@media (max-width: 991px) { 
+.service-two {
+    border-left: 1px solid #F3D1BF;
+}
 
+}
 /* 
  Contact area
 
@@ -252,4 +258,21 @@ a {
 .contact-text ul li a {
     color: #fff;
     font-size: 18px;
+}
+
+/* 
+ Footer area
+*/
+.footer-area {
+    padding: 25px 0;
+}
+.footer-area p {
+    margin-bottom: 0;
+    color: #391400;
+}
+
+.footer-links a {
+    color: #391400;
+    font-weight: 400;
+    margin-left: 25px;
 }
