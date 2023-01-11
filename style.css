@@ -50,12 +50,7 @@ a {
 .site-btn:hover {
     background-color: #f5624b;
 }
-@media (max-width: 991px) {
-    .site-btn {
-        padding: 8px 12px;
-        font-size: 12px;
-    }
-}
+
 /* 
  Header area
 */
@@ -113,23 +108,7 @@ a {
     margin-bottom: 40px;
 }
 
-@media (max-width: 991px ) {
-    .hero-text {
-        margin: 20px 0;
-    }
-    .hero-text p {
-        font-size: 14px;
-    }
-    .hero-text h2 {
-        font-size: 30px;
-    }
-    .hero-text h3, .hero-text p {
-        margin-bottom: 20px;
-    }
-    .hero-img {
-        margin-bottom: 20px;
-    }
-}
+
 
 /* 
  Service area
@@ -200,12 +179,7 @@ a {
     border-radius: 50%;
     /* box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5); */
 }
-@media (max-width: 991px) { 
-.service-two {
-    border-left: 1px solid #F3D1BF;
-}
 
-}
 /* 
  Contact area
 
@@ -236,7 +210,7 @@ a {
     background-color: #eb5e48;
     color: #fff;
 }
-.contact-text {}
+
 .contact-text ul {
     margin: 0;
     padding: 0;
@@ -275,4 +249,76 @@ a {
     color: #391400;
     font-weight: 400;
     margin-left: 25px;
+}
+
+
+
+
+/* 
+ Responsive css
+*/
+
+@media (max-width: 991px) {
+    .navbar-toggler {
+        background-color: #eb5e48;
+    }
+    .navbar-collapse {
+        padding: 20px 0;
+    }
+    .nav-item {
+        text-align: center;
+        margin: 15px 0;
+    }
+    .nav-item:last-child {
+        margin-top: 15px;
+    }
+    .site-btn {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+    .service-two {
+        border-left: 1px solid #F3D1BF;
+    }
+}
+  
+
+@media (max-width: 575px) {
+   
+    .hero-text {
+        text-align: center;
+    }
+    .hero-text p {
+        font-size: 14px;
+    }
+    .hero-text h2 {
+        font-size: 30px;
+    }
+    .hero-text h3, .hero-text p {
+        margin-bottom: 20px;
+    }
+    .hero-img {
+        margin-bottom: 20px;
+    }
+    .service-one {
+        margin-bottom: 3rem;
+    }
+    .hero-text {
+        margin: 20px 0;
+    }
+    .contact-form {
+        margin-bottom: 3rem;
+    }
+    .contact-text .section-heading {
+        text-align: center;
+    }
+    .contact-text .section-heading p {
+        margin-bottom: 3rem;
+    }
+    .footer-copyright {
+        text-align: center;
+    }
+    .footer-links {
+        text-align: center;
+        margin-top: 1rem;
+    }
 }
