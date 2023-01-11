@@ -39,5 +39,7 @@ submitButton.addEventListener("click", () => {
     });
 
 
+    } else {
+        document.getElementById("success_msg").innerHTML = "<p class='text-danger'>Please insert all field!</p>";
     }
 });
